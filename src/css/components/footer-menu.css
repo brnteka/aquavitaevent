@@ -1,0 +1,11 @@
+.footer-menu {
+	@apply flex text-sm uppercase text-white;
+	li {
+		@apply mr-8;
+		a {
+			&:hover {
+				border-bottom: 2px solid #962947;
+			}
+		}
+	}
+}

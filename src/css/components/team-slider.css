@@ -1,0 +1,8 @@
+.team-slider-main-bg-gradient {
+	background: linear-gradient(to top, #2f3343 0%, rgba(47, 51, 67, 0) 100%);
+}
+
+.team-slider-main-photo,
+.team-slider-supportive-photo {
+	filter: grayscale(100%);
+}

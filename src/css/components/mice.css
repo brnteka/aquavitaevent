@@ -1,0 +1,23 @@
+.mice {
+	font-size: 15px;
+}
+.mice-word {
+	@apply font-bold;
+	font-size: 30px;
+}
+.mice-big-letter {
+	@apply leading-none inline-block text-center align-middle;
+	font-size: 60px;
+	width: 70px;
+	color: #721f36;
+}
+.mice-word-the-rest {
+	@apply align-middle;
+}
+.mice-expanded-translation {
+	margin-left: 70px;
+	@apply block;
+	@screen sm {
+		@apply inline ml-0;
+	}
+}

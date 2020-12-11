@@ -1,0 +1,20 @@
+.wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle:after {
+	content: "";
+	vertical-align: middle;
+	border: none;
+	height: 24px;
+	display: inline-block;
+	width: 24px;
+	position: absolute;
+	right: 10px;
+	top: 3px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABSSURBVHgB7c7BDUAREATQ2Q6UsK38yn8pdLJIuOwFIeEwL5mDSQwAEd1nZloz26+Oh5LYom689wE73Jj68+i+YEIb+l39iUjCKas/33lEQURvyYwIXUqQeijZAAAAAElFTkSuQmCC");
+}
+
+.wpml-ls-sub-menu {
+	background: #303344;
+}
+
+.wpml-ls-sub-menu .wpml-ls-item:hover {
+	background: #383d50;
+}

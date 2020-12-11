@@ -1,0 +1,8 @@
+.social-footer {
+	background-color: #9297a9;
+	color: #2f3343;
+
+	&:hover {
+		background-color: #fff;
+	}
+}

@@ -1,0 +1,72 @@
+.form-first-row {
+	@apply mb-6;
+}
+.form-second-row {
+	@apply -mx-3;
+
+	@screen sm {
+		@apply flex;
+	}
+}
+
+.form-second-row-item {
+	@apply px-3 mb-6;
+
+	@screen sm {
+		@apply w-1/2;
+	}
+}
+
+.form-third-row {
+	@apply mb-6;
+}
+
+.form-fourth-row {
+	@apply text-center;
+}
+
+.form-field {
+	@apply py-3 px-5 block w-full text-sm leading-relaxed;
+}
+
+.form-select {
+	@apply appearance-none bg-no-repeat;
+	background-position: right 10px center;
+}
+
+/* footer */
+
+.contact-form-footer {
+	.form-field {
+		@apply text-white;
+		background-color: #424655;
+
+		&:focus,
+		&:active {
+			background-color: #545866;
+		}
+	}
+
+	.form-select {
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABSSURBVHgB7c7BDUAREATQ2Q6UsK38yn8pdLJIuOwFIeEwL5mDSQwAEd1nZloz26+Oh5LYom689wE73Jj68+i+YEIb+l39iUjCKas/33lEQURvyYwIXUqQeijZAAAAAElFTkSuQmCC");
+	}
+
+	textarea {
+		height: 300px;
+	}
+}
+
+/* modal */
+
+.contact-form-modal {
+	.form-field {
+		&:focus,
+		&:active {
+			@apply shadow-lg;
+		}
+	}
+
+	.form-select {
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABrSURBVHgBbY+xDYBACEWPitYRLC11A+1cxdJJrrxV7BzB1tItDBXCJT8h5n5CgM8jhJRMeVh7j/RT9CmPc8fClzeitOz38QBi0rP6r0zkRTFTYRrsGRBZv9ky4UyEIUC1joMIR6gph0vjsQ+8NzDO+xq96wAAAABJRU5ErkJggg==");
+	}
+}

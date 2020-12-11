@@ -1,0 +1,12 @@
+.cms-content {
+	p {
+		&:not(:last-child) {
+			@apply mb-8;
+		}
+	}
+
+	blockquote {
+		@apply text-lg float-right w-2/3 -mr-48 ml-6 border-t-4 pt-8;
+		border-color: #2f3343;
+	}
+}

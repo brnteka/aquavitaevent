@@ -1,0 +1,11 @@
+.header-menu {
+	@apply flex text-sm leading-snug uppercase text-white;
+	li {
+		@apply mx-3;
+		a {
+			&:hover {
+				border-bottom: 2px solid #962947;
+			}
+		}
+	}
+}

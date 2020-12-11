@@ -1,0 +1,8 @@
+.mobile-menu {
+	@apply text-sm leading-snug uppercase text-black text-white;
+	li {
+		@apply mb-6;
+		a {
+		}
+	}
+}

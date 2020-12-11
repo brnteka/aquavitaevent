@@ -1,0 +1,30 @@
+{
+	"name": "auqavita",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"develop": "cross-env NODE_ENV=development gulp",
+		"build": "cross-env NODE_ENV=production gulp build"
+	},
+	"browserslist": "cover 99.5%",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^9.8.6",
+		"browser-sync": "^2.26.12",
+		"cross-env": "^7.0.2",
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"gulp-postcss": "^8.0.0",
+		"postcss-calc": "^7.0.3",
+		"postcss-easing-gradients": "^3.0.1",
+		"postcss-import": "^12.0.1",
+		"postcss-nested": "^4.2.3",
+		"tailwindcss": "^1.7.3",
+		"tailwindcss-aspect-ratio": "^3.0.0",
+		"tailwindcss-multi-column": "^1.0.2"
+	},
+	"dependencies": {}
+}

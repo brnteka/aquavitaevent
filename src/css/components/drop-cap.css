@@ -1,0 +1,11 @@
+.drop-cap {
+	p:first-of-type::first-letter {
+		@apply leading-none float-left mr-6 mb-1 font-bold;
+		font-size: 60px;
+		color: #721f36;
+
+		@screen lg {
+			font-size: 91px;
+		}
+	}
+}

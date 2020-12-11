@@ -1,0 +1,46 @@
+.overflow-wrapper-left {
+	@screen sm {
+		margin-left: -9px;
+	}
+	@screen md {
+		margin-left: -36px;
+	}
+	@screen lg {
+		/* margin-left: calc((84 / 600 * 100%) * -1); */
+		margin-left: -84px;
+	}
+	@screen xl {
+		/* margin-left: calc((320 / 600 * 100%) * -1); */
+		margin-left: -320px;
+	}
+}
+
+.overflow-wrapper-right {
+	/* @screen sm {
+		margin-right: -9px;
+	}
+	@screen md {
+		margin-right: -12px;
+	} */
+	@screen lg {
+		margin-right: -84px;
+	}
+	@screen xl {
+		margin-right: -320px;
+	}
+}
+
+.overflow-wrapper-both-sides {
+	/* @screen sm {
+		margin: -0 9px;
+	}
+	@screen md {
+		margin: 0 -12px;
+	} */
+	@screen lg {
+		margin: 0 -84px;
+	}
+	@screen xl {
+		margin: 0 -320px;
+	}
+}
